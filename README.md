@@ -1,2 +1,2 @@
 # mac_merge_repo
-thrying to merge soygitmac and github
+trying to merge soygitmac and github
