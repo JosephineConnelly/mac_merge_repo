@@ -1,7 +1,7 @@
-Workplan for Master’s thesis
+***Workplan for Master’s thesis
 Workplan for Josephine Connelly
 Date: wed 5th oct 2022
-Working title: Soy Adapt
+Working title: Soy Adapt***
 
 **Project description:** 
 
@@ -54,31 +54,40 @@ An agreement on the roles of the individual supervisors regarding planning of th
 the experimental phase and 
 in the writing process. 
 Who will mainly be responsible for the scientific content in the project?
-  Supervisors are 
-  Wolf Eiserhardt, Bioscience, Natural Sciences.
-  Role:
-  Guillaume R
 
-- The project work is divided between more than one location,
+Supervisors are: 
 
-- Can include a description of the supervision, e.g. frequency and number of meetings with supervisor etc.
+Wolf Eiserhardt, Bioscience, Natural Sciences, PEB (Plant Evolution and Biodiversity group).
+Role: Assist in the thesis in relation to academic content and process. Support in the manuscript writing.
 
-- Can include a description of the level of affiliation with the research section. Discuss with you supervisor, if you are expected to participate in section meetings, journal club, seminars with other students in the section or other activities during your Master’s project period?
+Guillaume Ramstein, Center for Quantitative Genetics and Genomics, technical sciences.
+Role: Dayly supervisor. Supports the day to day work. Assist in the thesis in relation to academic content and process. Also in relation to theoretical content and data analysis medthodas and practical work.
+
+Torben Asp, Center for Quantitative Genetics and Genomics, technical sciences. 
+Role: Main theoretical supervisor.
+
+- The project work is divided between more than one location, Offices at QGG and the offices at Biology; Ecoinformatics & Biodiversity. Including an active role in both centers, including participate in section meetings, weekly meeting in both centers, including an active role in the journal club at PEB. I will also participate in Biweekly Msc meeting & seminars with other students in the section. 
 
 - Find advice on matching expectations with your supervisor in the section: ”Good advice regarding your thesis process”.
-  Timeline: Must include an approx. timespan for the individual phases in your project 
-  Start date: 1 september 2022
-  Submission date: 15. june 2023
-  Completion date: 30. june 2023
-  Link to gant chart:
-  https://docs.google.com/spreadsheets/d/1NSvrSAg-TkY427UOzbjuwG8mRS2tH9FO1LBo-pG_a4g/edit?usp=sharing
+  
+Timeline:  
+Start date: 1 september 2022
+Submission date: 15. june 2023
+Completion date: 30. june 2023
+Link to gant chart:
+https://docs.google.com/spreadsheets/d/1NSvrSAg-TkY427UOzbjuwG8mRS2tH9FO1LBo-pG_a4g/edit?usp=sharing
+
+
+General competences:
+On a scientific basis, identify, define and formulate an academic problem within the academic subject area of the education. 
+Define and set up testable hypotheses within the subject area of the subject.
+Using the subject's scientific method, complete a major academic project.
+Analyse, critically discuss and perspective a professional issue.
+Assess, critically analyze and summarize the scientific literature within a defined subject area.
+Communicate scientific results objectively and concisely to a scientific forum.
 
 Project-specific competences:
-•    You can include a list of competences that you expect to achieve during the project period besides the official learning outcomes stated in the course description for the master’s thesis (“Thesis – Biology”, AU course catalogue). 
-Suggestion for project-specific competences:
-
-- Familiarity with the software programme (name) and unassisted be able to (task) 
-- Thorough familiarity with (method) and ability to evaluate ... in relation to ... 
-- Be able to use (apparatus) unassisted / under supervision to analyse … 
-  Remember to check regularly that you are on track to fulfil the official learning outcomes and project-specific competences during the project period.
-  Link to official learning outcomes.
+Familiarity with the software programmes that will be used in my data analysis (will follow).
+Thorough familiarity with population genetics methods and ability to create a pipeline, for data analysis, evaluate the outcome in relation to the hypotheses. 
+Be able to use GenomeDK unassisted to analyse genomics data.
+ 
