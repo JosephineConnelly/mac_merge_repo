@@ -5,7 +5,7 @@ Working title: Soy Adapt
 
 **Project description:** 
 
-## SoyAdapt: adaptation of soybean to the northern climate
+***SoyAdapt: adaptation of soybean to the northern climate***
 
 **Background**
 
@@ -49,7 +49,11 @@ Liu, Y., Du, H., Li, P., Shen, Y., Peng, H., Liu, S., Zhou, G.-A., Zhang, H., Li
 
 **Plan for supervision:** 
 
-- If you have more than one supervisor, there ought to be an agreement on the roles of the individual supervisors regarding planning of the project, the experimental phase and in the writing process. Who will mainly be responsible for the scientific content in the project?
+Three supervisors are involved with this projekt.
+An agreement on the roles of the individual supervisors regarding planning of the project
+the experimental phase and 
+in the writing process. 
+Who will mainly be responsible for the scientific content in the project?
   Supervisors are 
   Wolf Eiserhardt, Bioscience, Natural Sciences.
   Role:
@@ -68,42 +72,6 @@ Liu, Y., Du, H., Li, P., Shen, Y., Peng, H., Liu, S., Zhou, G.-A., Zhang, H., Li
   Completion date: 30. june 2023
   Link to gant chart:
   https://docs.google.com/spreadsheets/d/1NSvrSAg-TkY427UOzbjuwG8mRS2tH9FO1LBo-pG_a4g/edit?usp=sharing
-
-|                                       |                                     |         |        |          |               |             |                | 9               | 10              | 11              | 12              | 1               | 2               | 3               | 4               | 5               | 6               |
-| ------------------------------------- | ----------------------------------- | ------- | ------ | -------- | ------------- | ----------- | -------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
-|                                       |                                     |         |        |          |               |             |                | 1<br>Sep<br>'22 | 1<br>Oct<br>'22 | 1<br>Nov<br>'22 | 1<br>Dec<br>'22 | 1<br>Jan<br>'23 | 1<br>Feb<br>'23 | 1<br>Mar<br>'23 | 1<br>Apr<br>'23 | 1<br>May<br>'23 | 1<br>Jun<br>'23 |
-| Project Planner Template              |                                     | Task    | months | PROGRESS | PLAN<br>START | PLAN<br>END | ACTUAL<br>DAYS | 1               | 2               | 3               | 4               | 5               | 6               | 7               | 8               | 9               | 10              |
-|                                       |                                     |         |        |          |               |             |                |                 |                 |                 |                 |                 |                 |                 |                 |                 |                 |
-| Thesis                                |                                     |         | 1-10   | 10,00%   | 1/9/2022      | 30/6/2023   | 302            | X               | X               | X               | X               | X               | X               | X               | X               | X               | X               |
-| Searching for and reading literature  |                                     | Reading | 1-5    | 20,00%   | 1/9/2022      | 30/12/2022  | 120            | X               | X               | X               | X               |                 |                 |                 |                 |                 |                 |
-| Learning and making pipeline          |                                     | Data    | 2-5    | 0,00%    | 1/10/2022     | 1/2/2023    | 123            |                 | X               | X               | X               | X               |                 |                 |                 |                 |                 |
-| Data analysis                         |                                     | Data    | 3-9    | 0,00%    | 1/11/2022     | 1/3/2023    | 120            |                 |                 | X               | X               | X               | X               | X               | X               | X               |                 |
-| Visualisation and figure making       |                                     | Data    | 4-7    | 0,00%    | 1/1/2023      | 1/2/2023    | 31             |                 |                 |                 | X               | X               | X               | X               |                 |                 |                 |
-| First section                         | Review                              | Writing | 2-5    | 0,00%    |               |             | 0              |                 | X               | X               | X               | X               |                 |                 |                 |                 |                 |
-| First section                         | Methedology, Hypothesis, Discussion | Writing |        | 0,00%    |               |             | 0              |                 |                 |                 |                 | X               | X               | X               |                 |                 |                 |
-| Second Section, Scientific manuscript | Introduction                        | Writing | 5-6    | 0,00%    |               |             | 0              |                 |                 |                 |                 | X               | X               |                 | X               | X               |                 |
-| Second Section, Scientific manuscript | Methods                             | Writing | 3-7,9  | 0,00%    |               |             | 0              |                 |                 | X               | X               | X               | X               | X               |                 | X               |                 |
-| Second Section, Scientific manuscript | Results                             | Writing | 4-9    | 0,00%    |               |             | 0              |                 |                 |                 | X               | X               | X               | X               | X               | X               |                 |
-| Second Section, Scientific manuscript | Discussion                          | Writing | 6-9    | 0,00%    |               |             | 0              |                 |                 |                 |                 |                 | X               | X               | X               | X               |                 |
-| Exam presentation                     |                                     | Exam    | 10     | 0,00%    | 16/6/2023     | 1/7/2023    | 15             |                 |                 |                 |                 |                 |                 |                 |                 |                 | X               |
-
-|                                       |                                     |         |        |          |               |             |                | 9               | 10              | 11              | 12              | 1               | 2               | 3               | 4               | 5               | 6               |
-| ------------------------------------- | ----------------------------------- | ------- | ------ | -------- | ------------- | ----------- | -------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
-|                                       |                                     |         |        |          |               |             |                | 1<br>Sep<br>'22 | 1<br>Oct<br>'22 | 1<br>Nov<br>'22 | 1<br>Dec<br>'22 | 1<br>Jan<br>'23 | 1<br>Feb<br>'23 | 1<br>Mar<br>'23 | 1<br>Apr<br>'23 | 1<br>May<br>'23 | 1<br>Jun<br>'23 |
-| Project Planner Template              |                                     | Task    | months | PROGRESS | PLAN<br>START | PLAN<br>END | ACTUAL<br>DAYS | 1               | 2               | 3               | 4               | 5               | 6               | 7               | 8               | 9               | 10              |
-|                                       |                                     |         |        |          |               |             |                |                 |                 |                 |                 |                 |                 |                 |                 |                 |                 |
-| Thesis                                |                                     |         | 1-10   | 10,00%   | 1/9/2022      | 30/6/2023   | 302            | X               | X               | X               | X               | X               | X               | X               | X               | X               | X               |
-| Searching for and reading literature  |                                     | Reading | 1-5    | 20,00%   | 1/9/2022      | 30/12/2022  | 120            | X               | X               | X               | X               |                 |                 |                 |                 |                 |                 |
-| Learning and making pipeline          |                                     | Data    | 2-5    | 0,00%    | 1/10/2022     | 1/2/2023    | 123            |                 | X               | X               | X               | X               |                 |                 |                 |                 |                 |
-| Data analysis                         |                                     | Data    | 3-9    | 0,00%    | 1/11/2022     | 1/3/2023    | 120            |                 |                 | X               | X               | X               | X               | X               | X               | X               |                 |
-| Visualisation and figure making       |                                     | Data    | 4-7    | 0,00%    | 1/1/2023      | 1/2/2023    | 31             |                 |                 |                 | X               | X               | X               | X               |                 |                 |                 |
-| First section                         | Review                              | Writing | 2-5    | 0,00%    |               |             | 0              |                 | X               | X               | X               | X               |                 |                 |                 |                 |                 |
-| First section                         | Methedology, Hypothesis, Discussion | Writing |        | 0,00%    |               |             | 0              |                 |                 |                 |                 | X               | X               | X               |                 |                 |                 |
-| Second Section, Scientific manuscript | Introduction                        | Writing | 5-6    | 0,00%    |               |             | 0              |                 |                 |                 |                 | X               | X               |                 | X               | X               |                 |
-| Second Section, Scientific manuscript | Methods                             | Writing | 3-7,9  | 0,00%    |               |             | 0              |                 |                 | X               | X               | X               | X               | X               |                 | X               |                 |
-| Second Section, Scientific manuscript | Results                             | Writing | 4-9    | 0,00%    |               |             | 0              |                 |                 |                 | X               | X               | X               | X               | X               | X               |                 |
-| Second Section, Scientific manuscript | Discussion                          | Writing | 6-9    | 0,00%    |               |             | 0              |                 |                 |                 |                 |                 | X               | X               | X               | X               |                 |
-| Exam presentation                     |                                     | Exam    | 10     | 0,00%    | 16/6/2023     | 1/7/2023    | 15             |                 |                 |                 |                 |                 |                 |                 |                 |                 | X               |
 
 Project-specific competences:
 •    You can include a list of competences that you expect to achieve during the project period besides the official learning outcomes stated in the course description for the master’s thesis (“Thesis – Biology”, AU course catalogue). 
