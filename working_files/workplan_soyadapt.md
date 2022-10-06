@@ -62,6 +62,7 @@ Role: Assist in the thesis in relation to academic content and process. Support 
 
 Guillaume Ramstein, Center for Quantitative Genetics and Genomics, technical sciences.
 Role: Dayly supervisor. Supports the day to day work. Assist in the thesis in relation to academic content and process. Also in relation to theoretical content and data analysis medthodas and practical work.
+weekly meetings at: https://docs.google.com/document/d/1D5inJBACf34GP6-OIiL_MWy30PzoSrqcNlDFwy3__Sw/edit?usp=sharing
 
 Torben Asp, Center for Quantitative Genetics and Genomics, technical sciences. 
 Role: Main theoretical supervisor.
