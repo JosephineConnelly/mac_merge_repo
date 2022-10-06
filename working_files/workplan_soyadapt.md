@@ -1,7 +1,10 @@
-***Workplan for Master’s thesis
+***Workplan for Master’s thesis***
+
 Workplan for Josephine Connelly
-Date: wed 5th oct 2022
-Working title: Soy Adapt***
+
+Date: thur 6th oct 2022
+
+Working title: Soy Adapt
 
 **Project description:** 
 
@@ -72,9 +75,12 @@ Role: Main theoretical supervisor.
 - Find advice on matching expectations with your supervisor in the section: ”Good advice regarding your thesis process”.
   
 Timeline:  
-Start date: 1 september 2022
-Submission date: 15. june 2023
-Completion date: 30. june 2023
+Start date: 1 september 2022.
+
+Submission date: 15. june 2023.
+
+Completion date: 30. june 2023.
+
 Link to gant chart:
 https://docs.google.com/spreadsheets/d/1NSvrSAg-TkY427UOzbjuwG8mRS2tH9FO1LBo-pG_a4g/edit?usp=sharing
 
