@@ -65,7 +65,8 @@ Role: Assist in the thesis in relation to academic content and process. Support 
 
 Guillaume Ramstein, Center for Quantitative Genetics and Genomics, technical sciences.
 Role: Dayly supervisor. Supports the day to day work. Assist in the thesis in relation to academic content and process. Also in relation to theoretical content and data analysis medthodas and practical work.
-weekly meetings at: https://docs.google.com/document/d/1D5inJBACf34GP6-OIiL_MWy30PzoSrqcNlDFwy3__Sw/edit?usp=sharing
+
+Weekly meetings at: https://docs.google.com/document/d/1D5inJBACf34GP6-OIiL_MWy30PzoSrqcNlDFwy3__Sw/edit?usp=sharing
 
 Torben Asp, Center for Quantitative Genetics and Genomics, technical sciences. 
 Role: Main theoretical supervisor.
@@ -73,7 +74,7 @@ Role: Main theoretical supervisor.
 - The project work is divided between more than one location, Offices at QGG and the offices at Biology; Ecoinformatics & Biodiversity. Including an active role in both centers, including participate in section meetings, weekly meeting in both centers, including an active role in the journal club at PEB. I will also participate in Biweekly Msc meeting & seminars with other students in the section. 
 
 - Find advice on matching expectations with your supervisor in the section: ”Good advice regarding your thesis process”.
-  
+
 Timeline:  
 Start date: 1 september 2022.
 
@@ -83,7 +84,6 @@ Completion date: 30. june 2023.
 
 Link to gant chart:
 https://docs.google.com/spreadsheets/d/1NSvrSAg-TkY427UOzbjuwG8mRS2tH9FO1LBo-pG_a4g/edit?usp=sharing
-
 
 General competences:
 On a scientific basis, identify, define and formulate an academic problem within the academic subject area of the education. 
@@ -97,4 +97,3 @@ Project-specific competences:
 Familiarity with the software programmes that will be used in my data analysis (will follow).
 Thorough familiarity with population genetics methods and ability to create a pipeline, for data analysis, evaluate the outcome in relation to the hypotheses. 
 Be able to use GenomeDK unassisted to analyse genomics data.
- 

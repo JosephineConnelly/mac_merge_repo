@@ -1,0 +1,44 @@
+#Conda package manager
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+chmod +x miniconda.sh
+bash miniconda.sh -b
+./miniconda3/bin/conda init bash
+##That’s it! The last two step makes sure that Conda will be available when you log in, so now is a good time to open a new connection and check that Conda is available.
+
+##Now let’s configure Conda to make it super useful.
+
+#Configuring Conda
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda config --add channels genomedk
+## no working from base!!! 
+conda config --set auto_activate_base false
+##You can easily search for Conda packages through the website anaconda.org or using the conda search command:
+conda search rstudio
+
+#make a environment!
+[fe-open-01]$ conda activate
+(base) [fe-open-01]$
+#You now have access to the software installed in the base environment.
+#create a new environment:
+conda create --name USDA_chr1_project pysam
+conda activate amazing-project
+#Notice that the prompt changed to show you that you’re now in the amazing-project environment.
+(amazing-project) [fe-open-01]$ python -c 'import pysam; print(pysam.__version__)'
+
+#To install software in the currenctly activated environment:
+#(amazing-project) [fe-open-01]$ conda install PACKAGE-NAME
+#To remove a software package from the currently activated environment:
+#(amazing-project) [fe-open-01]$ conda remove PACKAGE-NAME
+#To update a software package in the currently activated environment:
+#(amazing-project) [fe-open-01]$ conda update PACKAGE-NAME
+
+#To export your environment so that others can recreate it:
+#(amazing-project) [fe-open-01]$ conda env export > environment.yml
+#The environment.yml file contains an exact specification of your environment and the packages installed. You can put this in your shared project folder. Others will then be able to recreate your environment by running:
+#[fe-open-01]$ conda env create -f environment.yml
+
+
+
+
