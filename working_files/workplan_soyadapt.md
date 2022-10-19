@@ -50,6 +50,17 @@ Pan genome analyses could include identification of unique genomic regions in th
 
 Liu, Y., Du, H., Li, P., Shen, Y., Peng, H., Liu, S., Zhou, G.-A., Zhang, H., Liu, Z., Shi, M., Huang, X., Li, Y., Zhang, M., Wang, Z., Zhu, B., Han, B., Liang, C., & Tian, Z. (2020). Pan-Genome of Wild and Cultivated Soybeans. Cell, 182(1), 162-176.e13. https://doi.org/10.1016/j.cell.2020.05.023
 
+**Working hypotheses**
+
+1 The Swedish accessions are genetically related to a subset (early-maturing like 00 or 000, ...) subset of GRIN 
+2 There are signatures of selection within Swedish accessions that are 
+not shared depending on genetic clusters (origin of breeding material, ...)
+3 Selection signatures in SE accessions and GRIN accessions at candidate genes (...) are dissimilar.  
+
+If data about other characteristics (cultivar release date, ...):
+
+4 ?
+
 **Plan for supervision:** 
 
 Three supervisors are involved with this projekt.
@@ -59,6 +70,14 @@ in the writing process.
 Who will mainly be responsible for the scientific content in the project?
 
 Supervisors are: 
+
+Administrative process: WE, TA, GR  
+
+Scientific content: TA, GR  
+
+Methods: GR  
+
+Project management: TA
 
 Wolf Eiserhardt, Bioscience, Natural Sciences, PEB (Plant Evolution and Biodiversity group).
 Role: Assist in the thesis in relation to academic content and process. Support in the manuscript writing.
