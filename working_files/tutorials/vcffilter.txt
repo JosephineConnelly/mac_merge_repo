@@ -1,0 +1,107 @@
+#https://speciationgenomics.github.io/filtering_vcfs/
+
+$ ls -lh *.vcf.gz
+
+#how many unfiltered variants
+$ bcftools view -H soysnp50k_wm82.a2_41317.vcf.gz | wc -l
+   42195
+
+#what settings should the filters have?
+A far better idea is to randomly sample your VCF. Luckily there is a tool to do exactly this and it is part of the extremely useful vcflib pipeline. Using it is also very simple. Here we will use it to extract ~100 000 variants at random from our unfiltered VCF.
+
+bcftools view soysnp50k_wm82.a2_41317.vcf.gz | vcfrandomsample -r 0.012 > soysnp50k_wm82.a2_41317_subset.vcf
+
+
+command not found
+brew install brewsci/bio/vcflib
+
+
+**Generating statistics from a VCF**
+
+In order to generate statistics from our VCF and also actually later apply filters, we are going to use vcftools, a very useful and fast program for handling vcf files.
+
+Determining how to set filters on a dataset is a bit of a nightmare - it is something newcomers (and actually experienced people too) really struggle with. There also isn’t always a clear answer - if you can justify your actions then there are often multiple solutions to how you set your filters. What is important is that you get to know your data and from that determine some sensible thresholds.
+
+Luckily, vcftools makes it possible to easily calculate these statistics. In this section, we will analyse our VCF in order to get a sensible idea of how to set such filtering thresholds. The main areas we will consider are:
+
+    Depth: You should always include a minimum depth filter and ideally also a maximum depth one too. Minimum depth cutoffs will remove false positive calls and will ensure higher quality calls too. A maximum cut off is important because regions with very, very high read depths are likely repetitive ones mapping to multiple parts of the genome.
+    Quality Genotype quality is also an important filter - essentially you should not trust any genotype with a Phred score below 20 which suggests a less than 99% accuracy.
+    Minor allele frequency MAF can cause big problems with SNP calls - and also inflate statistical estimates downstream. Ideally you want an idea of the distribution of your allelic frequencies but 0.05 to 0.10 is a reasonable cut-off. You should keep in mind however that some analyses, particularly demographic inference can be biased by MAF thresholds.
+    Missing data How much missing data are you willing to tolerate? It will depend on the study but typically any site with >25% missing data should be dropped.
+
+
+#what settings should the filters have?
+A far better idea is to randomly sample your VCF. Luckily there is a tool to do exactly this and it is part of the extremely useful vcflib pipeline. Using it is also very simple. Here we will use it to extract ~100 000 variants at random from our unfiltered VCF.
+
+bcftools view soysnp50k_wm82.a2_41317.vcf.gz | vcfrandomsample -r 0.012 > soysnp50k_wm82.a2_41317_subset.vcf
+
+
+command not found
+brew install brewsci/bio/vcflib
+
+worked and made _subset
+bash-3.2$ bgzip soysnp50k_wm82.a2_41317_subset.vcf
+bash-3.2$ bcftools index soysnp50k_wm82.a2_41317_subset.vcf.gz 
+
+SUBSET_VCF=./soysnp50k_wm82.a2_41317_subset.vcf.gz
+OUT=./vcftools_results/soysnp50k_wm82.a2_41317_subset
+
+#Calculate allele frequency
+
+First we will calculate the allele frequency for each variant. The --freq2 just outputs the frequencies without information about the alleles, --freq would return their identity. We need to add max-alleles 2 to exclude sites that have more than two alleles
+
+$ vcftools --gzvcf $SUBSET_VCF --freq2 --out $OUT --max-alleles 2
+
+CFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf ./soysnp50k_wm82.a2_41317_subset.vcf.gz
+	--max-alleles 2
+	--freq2
+	--out ./vcftools_results/soysnp50k_wm82.a2_41317_subset
+
+Using zlib version: 1.2.11
+After filtering, kept 20087 out of 20087 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 491 out of a possible 491 Sites
+Run Time = 1.00 seconds
+
+#Calculate mean depth per individual
+
+Next we calculate the mean depth of coverage per individual.
+
+$ vcftools --gzvcf $SUBSET_VCF --depth --out $OUT
+
+#Calculate mean depth per site
+
+Similarly, we also estimate the mean depth of coverage for each site.
+
+$ vcftools --gzvcf $SUBSET_VCF --site-mean-depth --out $OUT
+
+#Calculate site quality
+
+We additionaly extract the site quality score for each site.
+
+$ vcftools --gzvcf $SUBSET_VCF --site-quality --out $OUT
+
+#Calculate proportion of missing data per individual
+
+Another individual level statistic - we calculate the proportion of missing data per sample.
+
+$ vcftools --gzvcf $SUBSET_VCF --missing-indv --out $OUT
+
+#Calculate proportion of missing data per site
+
+And more missing data, just this time per site rather than per individual.
+
+$ vcftools --gzvcf $SUBSET_VCF --missing-site --out $OUT
+
+# Calculate heterozygosity and inbreeding coefficient per individual
+
+Computing heterozygosity and the inbreeding coefficient (F) for each individual can quickly highlight outlier individuals that are e.g. inbred (strongly negative F), suffer from high sequencing error problems or contamination with DNA from another individual leading to inflated heterozygosity (high F), or PCR duplicates or low read depth leading to allelic dropout and thus underestimated heterozygosity (stongly negative F). However, note that here we assume Hardy-Weinberg equilibrium. If the individuals are not sampled from the same population, the expected heterozygosity will be overestimated due to the Wahlund-effect. It may still be worth to compute heterozygosities even if the samples are from more than one population to check if any of the individuals stands out which could indicate problems.
+
+$ vcftools --gzvcf $SUBSET_VCF --het --out $OUT
+
+
+

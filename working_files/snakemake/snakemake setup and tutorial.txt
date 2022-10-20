@@ -55,6 +55,19 @@ mamba create -c conda-forge -c bioconda -n snakemake snakemake
 
 mamba activate snakemate: it said to do mamba init...
 restat shell
+didnt work
+turnsout if i do 
+!!!
+
+
+source activate
+(base) $
+conda deactivate
+#then
+conda activate -> it works
+
+Now follow the snakemake tutorial at
+https://snakemake.readthedocs.io/en/stable/tutorial/setup.html#step-1-installing-mambaforge
 
 
 
@@ -62,10 +75,4 @@ restat shell
 
 
 
-
-#...
-Snakemake workflow to my git
-cd soymac/soygitmac
-
-gh repo clone JosephineConnelly/SoyAdapt_workflow
 
